@@ -32,7 +32,7 @@ export class NgxPrintDirective {
    *
    * @memberof NgxPrintDirective
    */
-  @Input() printDelay: number = 0;
+  @Input() printDelay: number = 800;
 
   /**
    *
