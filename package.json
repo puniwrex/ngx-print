@@ -25,6 +25,7 @@
   "scripts": {
     "ng": "ng",
     "build": "ng build",
+    "prepare": "npm run build",
     "test": "ng test -- --no-watch --code-coverage --no-progress --browsers=ChromeHeadlessCI"
   },
   "dependencies": {
