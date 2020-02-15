@@ -7,6 +7,7 @@
     "type": "git",
     "url": "git+https://github.com/puniwrex/ngx-print.git"
   },
+  "main": "bundles/ngx-print.umd.js",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/puniwrex/ngx-print/issues"
@@ -58,7 +59,6 @@
     "@angular/common": "*",
     "@angular/core": "*"
   },
-  "main": "bundles/ngx-print.umd.js",
   "module": "fesm5/ngx-print.js",
   "es2015": "fesm2015/ngx-print.js",
   "esm5": "esm5/ngx-print.js",

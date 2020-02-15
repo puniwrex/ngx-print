@@ -141,7 +141,6 @@ public returnStyleValues() {
               window.removeEventListener('load', triggerPrint, false);
               setTimeout(() => {
                 window.print();
-                setTimeout(() => window.close(), 0);
               }, ${this.printDelay});
             }
             window.addEventListener('load', triggerPrint, false);
